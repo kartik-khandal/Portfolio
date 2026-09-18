@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
-        if (window.scrollY > 60) {
+        if (window.scrollY > 70) {
             document.querySelector('#scroll-top').classList.add('active');
         } else {
             document.querySelector('#scroll-top').classList.remove('active');
